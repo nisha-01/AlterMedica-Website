@@ -21,13 +21,5 @@ Output
 ![Screenshot (23)](https://user-images.githubusercontent.com/97236292/232278540-1a58849c-8a2a-47b9-adf7-3d99a3c8344d.png)
 
 
-Requirements-
-Flask==2.1.1
-
-numpy==1.22.3
-
-pandas==1.4.1
-
-scikit_learn==1.2.2
-
-gunicorn==20.1.0
+For Requirements use :
+pip install -r requirements.txt
