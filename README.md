@@ -10,3 +10,6 @@ The application is reduced as much as possible to avoid errors while entering th
 3.	A user-friendly interface that is easy to navigate and understand
 4.	Access to contact developers advice and resources related to medication alternatives and related health topics.
 
+How website look like!!
+![Screenshot (20)](https://user-images.githubusercontent.com/97236292/232278333-cd63b595-72c8-4da4-af34-d99a49b98af2.png)
+![Uploading Screenshot (21).png…]()
