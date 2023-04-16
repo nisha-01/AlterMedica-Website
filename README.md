@@ -18,10 +18,10 @@ Access to contact developers advice and resources related to medication alternat
 
 ![output](https://user-images.githubusercontent.com/97236292/232289703-9e86aae5-0400-45d2-bb42-bcaec8e05e20.jpg)
 
-### Cosine Similarity:
+## Cosine Similarity:
 Cosine similarity is a measure of similarity between two data points in a plane. Cosine similarity is used as a metric in different machine learning algorithms like the KNN for determining the distance between the neighbors, in recommendation systems, it is used to recommend movies with the same similarities and for textual data, it is used to find the similarity of texts in the document.
 
-![cosine](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.learndatasci.com%2Fglossary%2Fcosine-similarity%2F&psig=AOvVaw03zkbxjsn3NY05GvjO9vGh&ust=1681724348910000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCPDM98GNrv4CFQAAAAAdAAAAABAE)
+![cosine](https://storage.googleapis.com/lds-media/images/cosine-similarity-vectors.original.jpg)
 
 
 ### For Requirements use : pip install -r requirements.txt
