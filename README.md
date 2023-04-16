@@ -18,4 +18,6 @@ Access to contact developers advice and resources related to medication alternat
 
 ![output](https://user-images.githubusercontent.com/97236292/232289703-9e86aae5-0400-45d2-bb42-bcaec8e05e20.jpg)
 
+For Requirements use : pip install -r requirements.txt
+
 
