@@ -23,7 +23,11 @@ Output
 
 Requirements-
 Flask==2.1.1
+
 numpy==1.22.3
+
 pandas==1.4.1
+
 scikit_learn==1.2.2
+
 gunicorn==20.1.0
