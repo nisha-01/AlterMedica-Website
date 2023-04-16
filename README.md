@@ -9,7 +9,13 @@ Comprehensive information about various medications and their uses
 A search function that allows users to find alternative medications based on their specific needs and conditions
 A user-friendly interface that is easy to navigate and understand
 Access to contact developers advice and resources related to medication alternatives and related health topics.
+
+#### How website look like!!
+
 ![altermed](https://user-images.githubusercontent.com/97236292/232289621-ea789c43-3d3c-4941-9eed-6a26a31572f2.jpg)
 
-How website look like!!
+##### Output
+
+![output](https://user-images.githubusercontent.com/97236292/232289703-9e86aae5-0400-45d2-bb42-bcaec8e05e20.jpg)
+
 
