@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlterMedica</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+     <div class="mainheader">
+        <div class="logo">
+            <img src="{{ url_for('static', filename='LOG.png') }}">
+        </div>
+        <nav>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+     </div>
+        <main>
+            <section class="left-sec"><center>
+                <strong>
+                <h5>Here's the best  website for you</h5>
+                </strong><br><strong>
+                    <p style="font-size: 25px;font-family: 'Lucida Handwriting', cursive;">Unlock your body's natural healing power with our alternative medicine solutions.</p>
+                </strong>
+                <h1>ALTER<span>MEDICA</span></h1>
+                </center><br>
+                <h6>Welcome to our website, where we provide alternatives to traditional medicines. We offer a range of alternative options to pharmaceuticals, such as herbal supplements, homeopathy, acupuncture, and many more.Our goal is to empower individuals to make informed choices about their health and well-being.We believe that every person is unique, and there is no one-size-fits-all approach to healthcare. That's why we offer a variety of alternative options, so you can find what works best for you.Feel free to contact us with any questions or concerns.</h6>
+            </section>
+        </main>
+        <div class="centered-text-field">
+            <form method="POST">
+                <div class="input-field">
+                    <input type="text" id="input1" name="input1" required />
+                    <label for="input1">Enter Medicine Name</label>
+                </div>
+            </form>
+        </div>
+</header>
+{% if error_message %}
+<h3><div class="alert alert-danger">{{ error_message }}</div></h3>
+{% endif %}
+<div class="bottom">
+    {% if similar_medicines2 is not none and not similar_medicines2.empty %}
+    <center><h1>Similar Medicines</h1></center><br>
+        {% for index, row in similar_medicines2.iterrows() %}
+            <div class="row">
+            <div class="column">
+                <div class="card">
+                <div class="container">
+                    <h2>{{ row['name'] }}</h2><br>
+                    <p>Composition: {{ row['short_composition1'] }}</p><br>
+                    <p>Manufacturer: {{ row['manufacturer_name'] }}</p><br>
+                    <p>Price: Rs.{{ row['price'] }}</p><br>                                                                                                                                                                                                                                                                                                                                             
+                    <p>Packing: {{ row['pack_size_label'] }}</p>
+                </div>
+                </div>
+            </div>
+        {% endfor %}
+    {% endif %}
+    </div>
+</div>
+    <script>
+		window.onload = function() {
+			document.querySelector('.bottom').scrollIntoView({ behavior: 'smooth' });
+		}
+	</script>
+</body>
+</html>

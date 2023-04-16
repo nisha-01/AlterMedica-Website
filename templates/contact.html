@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='cstyles.css') }}">
+</head>
+<body>
+    <header><center>
+      <h1>About Us</h1>
+      <p>Unlock the power of nature and discover a healthier you with our alternative medicine solutions.</p>
+      <p>Take control of your health and wellbeing - contact us to learn more about alternative medicine.</p>
+  </center>
+  </header>
+    
+    <div class="container">
+      <div class="member">
+        <img src="{{ url_for('static', filename='amey.jpg') }}" alt="amey" style="width:100%">
+        <h2>Amey Avhad</h2>
+            <p class="title">Developer</p>
+            <p>Passionate towards complex challenges.</p><br>
+            <p><a href='mailto:avhadamey3@gmail.com'><button class="button">Contact</button></a></p>
+      </div>
+      
+      <div class="member">
+        <img src="{{ url_for('static', filename='nisha.jpeg') }}" alt="nisha" style="width:100%">
+        <h2>Nisha Aglave</h2>
+            <p class="title">Developer</p>
+            <p>Turning ideas into reality with innovative solutions.</p>
+            <p><a href='mailto:nishaaglave112439@gmail.com'><button class="button">Contact</button></a></p>
+      </div>
+    </div>
+</body>
+</html>

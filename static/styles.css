@@ -1,0 +1,122 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+header{
+    width:100%;
+    height:100vh;
+    background-image: url("back.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Poppins', sans-serif;
+}
+.mainheader{
+    width:100%;
+    height:100px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.mainheader .logo img{
+    width:250px;
+    height:100px;
+    padding-left:12px;
+    margin-top: 50px;
+}
+
+.mainheader .nav-links {
+    flex: 1;
+    text-align: right;
+}
+.mainheader .nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.mainheader .nav-links ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+.mainheader .nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.mainheader .nav-links ul li:hover::after {
+    width: 100%;
+}
+.mainheader nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.menubtn{
+    margin-right: 60px;
+}
+.mainheader button{
+    padding: 10px 45px;
+    text-align:center;
+    font-size: 14px;
+    color:#0f0e0e;
+    border:none;
+    background-image: linear-gradient(to right,#9be79f,#69f1a2,#9be79f);
+    border-radius:10px;
+}
+
+main{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+span
+{
+    color:rgb(6, 117, 30);
+}
+
+main .left-sec{
+    padding-left:100px;
+    padding-right: 80px;
+    color:#050505;
+    margin-top: 4.5%;
+    font-size: 28px;
+}
+.left-sec h5{
+    font-size: 20px;
+}
+.left-sec h6{
+    text-align: justify;
+  text-justify: inter-word;
+}
+.left-sec h1{
+    font-size: 70px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin:12px 0;     
+    
+}
+.left-sec h4{
+    font-family: "Lucida Handwriting", cursive;
+}
+.left-sec {
+    margin-bottom: 20px;
+}
+main .menubutton{
+    margin-right: 60px;
+}
+.alert-danger{
+    text-align: center;
+    color: red;
+    background-color: #E9FBC6;
+}
