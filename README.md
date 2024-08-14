@@ -24,6 +24,6 @@ Cosine similarity is a measure of similarity between two data points in a plane.
 ![cosine](https://storage.googleapis.com/lds-media/images/cosine-similarity-vectors.original.jpg)
 
 
-### For Requirements use : pip install -r requirements.txt
+
 
 
